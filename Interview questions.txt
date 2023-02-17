@@ -1,0 +1,144 @@
+1.What are Data Types?
+A.A data type is a set of values and a set of operations defined on data. An implementation of a data type is an expression of data and operations in terms of a specific         
+  language such as Java, C ++, or Python.
+
+2.Name four of the main data types in Python
+A.Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data.
+ 
+3.Why are these data types known as Python’s core data types?
+A.They are known as the core data types because they are part of the Python language itself and are always available to create other objects, you usually need to call   
+  functions in imported modules.
+
+4.What does immutable mean and what three types of Python core data types are considered immutable?
+A.An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. Although you 
+  cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+5.What does sequence mean and which three types of data fall into this category?
+A.A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are the data types based on sequences. The Sequences
+  share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+6.What does mapping mean and what kind of data type is based on mapping?
+A.The term mapping refers to an object that maps keys to associated values. The Python dictionary is the only type of mapping in the base typeset. Mappings do not maintain 
+  any left-to-right position order; they support access to stored data by key, as well as type-specific method calls.
+
+7.How to distinguish between mutable data types and immutable data types
+A.Variable data type: When the memory address remains unchanged, the 
+  value can be changed 
+  Immutable data types: When the memory changes, the value also changes. 
+
+8.What is the difference between a list and a tuple? 
+A.Lists are dynamic: you can add items to them or override and remove     
+  existing ones.
+  Tuples are fixed-size: they don’t have an appendor an extendmethod. You
+  cannot remove items from them either.
+
+9.What are operators?
+A.Operators are required to perform various operations on data. They are special symbols that are required to carry out arithmetic and logical operations. The values on 
+  which the operator operates are called operands.
+  Python has the following operators defined for various operations:
+  Arithmetic Operators
+  Relational Operators
+  Logical/Boolean Operators
+  Assignment Operators
+  Bitwise Operators
+  Membership Operators
+  Identity Operators
+
+10.What are Arithmetic Operators? What are various types of arithmetic operators that we can use in Python?
+A.Arithmetic operators are used to performing mathematical functions such as addition, subtraction, division, and multiplication.
+
+11.What is the Arithmetic operator’s precedence in Python?
+A.When more than one arithmetic operator appears in an expression the operations will execute in a specific order. 
+
+12.What are relational operators?
+A.Relational operators are also known as conditional or comparison operators. 
+
+13.What are assignment operators?
+A.Assignment operators are used for assigning values to variables.
+
+14.What are logical operators?
+A.Logical operators are generally used in control statements like if and while. They are used to control program flow. The logical operator evaluates a condition 
+  and returns “True” or “False” depending on whether the condition evaluates to True or False.
+
+15.What are membership operators?
+A.The membership operators are used to check if a value exists in a sequence or not.
+
+16.What are bitwise operators?
+A.Bitwise operators work on bits and perform bit-by-bit operations.
+
+17.What are identity operators?
+A.Identity operators are used to verifying whether two values are on the same part of the memory or not. 
+
+18.What is the difference between a = 10 and a= = 10?
+A.The expression a = 10 assigns the value 10 to variable a, whereas a == 10 checks if the value of a is equal to 10 or not. If yes then it returns ‘Ti^te’ else it
+  willreturn ‘False’.
+
+
+19.What is an expression?
+A.A logical line of code that we write while programing, is called expressions. An expression can be broken into operator and operands. It is therefore said that an expression is a combination of one or more operands and zero or more operators that are together used to compute a value.
+
+20.What are the basic rules of operator precedence in Python?
+A.The basic rule of operator precedence in Python is as follows:
+
+  Expressions must be evaluated from left to right.
+  Expressions of parenthesis are performed first.
+  In Python the operation precedence follows as per the acronym PEMDAS
+  Mathematical operators are of higher precedence and the Boolean operators are of lower precedence.Hence, mathematical operations are performed before Boolean operations.
+
+21.What is the Associativity of Python Operators? What are non-associative operators?
+A.Associativity defines the order in which an expression will be evaluated if it has more than one operator having the same precedence. In such a case generally left to
+  right associativity is followed.
+  Operators like assignment or comparison operators have no associativity and are known as Nonassociative operators.
+
+22.What is pass in python?
+A.Pass means, no-operation Python statement, or in other words it is
+  place holder in compound statement, where there should be a blank left 
+  and nothing has to be written there.
+
+23.What does continue do?
+A.The continue is a jump statement in Python which moves the control to execute the next iteration in a loop leaving all the remaining instructions in the block unexecuted.
+ 
+The continue statement is applicable for both the “while” and “for” loops.
+
+24.When do we use break?
+A.Python provides a break statement to exit from a loop. Whenever the break hits in the code, the control of the program immediately exits from the body of the loop.
+ 
+The break statement in a nested loop causes the control to exit from the inner iterative block.
+
+25.What is difference between pass and continue?
+A.The continue statement makes the loop to resume from the next iteration.
+ 
+On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
+
+26.How does for and while loop differ in python?
+A.For loop is generally used to iterate through the elements of various collection types such as List, Tuple, Set, and Dictionary.
+
+While loop is the actual looping feature that is used in any other programming language. This is how Python differs in handling loops from the other programming languages.
+
+27.What is lambda in python?
+A.anonymous function means that a function is without a name. As we already know that def keyword is used to define the normal functions and the lambda keyword is used to create anonymous functions.
+
+28.What is use of split function?
+A.The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. It gives a list of all words present in the string.
+
+29.Difference b/w Lambda and Def?
+A.Lambda Vs. Def.
+Def can hold multiple expressions while lambda is a uni-expression function.
+Def generates a function and designates a name to call it later. Lambda forms a function object and returns it.
+Def can have a return statement. Lambda can’t have return statements.
+Lambda supports to get used inside a list and dictionary.
+
+30.What is Function?
+A.A function is an object which represents a block of code and is a reusable entity. It brings modularity to a program and a higher degree of code reusability.
+
+31.What is use of return keyword?
+A.The return is a Python statement which we can use in a function for sending a value back to its caller.
+
+32.Is it mandatory to return a value for function?
+A.It is not at all necessary for a function to return any value. However, if needed, we can use None as a return value.
+
+33.What does ord() function do?
+A.The ord(char) in Python takes a string of size one and returns an integer denoting the Unicode code format of the character in case of a Unicode type object, or the value of the byte if the argument is of 8-bit string type.
+
+34.What is a counter?
+A.The function Counter() from the module ‘collections’. It counts the number of occurrences of the elements of a container.
